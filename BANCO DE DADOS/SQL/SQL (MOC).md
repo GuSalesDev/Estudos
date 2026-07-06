@@ -20,3 +20,5 @@
 
 ![[TABELA.canvas]]
 [[TIPOS DE DADOS NO SQL]]
+
+[[FORMAS NORMAIS]]
