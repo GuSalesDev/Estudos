@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"03df08c80e537017","type":"text","text":"# TABELA\nAqui temos uma tabela.\n\n![[Captura de tela 2026-06-16 204431.png]]\n","x":-280,"y":-360,"width":859,"height":516,"color":"5"},
+		{"id":"4bbda6b7cf4b154b","type":"text","text":"# PRIMARY KEY\n\nUma **Primary Key (Chave Primária)** é uma coluna (ou conjunto de colunas) em uma tabela de banco de dados que **identifica de forma única cada linha/registro** dessa tabela.\n\n![[BANCO DE DADOS/MIDIASDB/Captura de tela 2026-06-16 204448.png|162]]\n","x":-1160,"y":-528,"width":756,"height":852,"color":"#009dff"},
+		{"id":"846b6cdf50e87f09","type":"text","text":"## ROW (TRUPLA , TUPLE OU LINHA)\n\n![[BANCO DE DADOS/MIDIASDB/Captura de tela 2026-06-16 204502.png]]","x":-620,"y":-660,"width":825,"height":105,"color":"#5d7cda"},
+		{"id":"ce5bfd9510a91407","type":"text","text":"# COLUMNS (COLUNAS OU ATRIBUTOS)\n\n![[BANCO DE DADOS/MIDIASDB/Captura de tela 2026-06-16 205355.png]]","x":240,"y":-660,"width":827,"height":105,"color":"#007ef5"},
+		{"id":"32ce4bc7b27c651b","type":"text","text":"# DATA VALUE (VALORES)\n\n![[BANCO DE DADOS/MIDIASDB/Captura de tela 2026-06-16 204553.png]]","x":-224,"y":324,"width":748,"height":169,"color":"#16bad0"},
+		{"id":"949549a43e143c50","type":"text","text":"\n# FOREIGN KEY\nÉ UMA CHAVE PRIMARIA QUE ESTÁ VINDO DE OUTRA TABELA SE RELACIONANDO COM A TABELA ATUAL.\n![[Pasted image 20260616213523.png|90]]","x":700,"y":-494,"width":461,"height":784,"color":"#00b3ff"}
+	],
+	"edges":[
+		{"id":"75cc7ba7019b2bb2","fromNode":"03df08c80e537017","fromSide":"left","toNode":"4bbda6b7cf4b154b","toSide":"right","color":"5"},
+		{"id":"ca49bfb240f39744","fromNode":"03df08c80e537017","fromSide":"top","toNode":"846b6cdf50e87f09","toSide":"bottom","color":"5"},
+		{"id":"28140f464a2e300c","fromNode":"03df08c80e537017","fromSide":"top","toNode":"ce5bfd9510a91407","toSide":"bottom","color":"5"},
+		{"id":"9c247eb29ddb4d60","fromNode":"03df08c80e537017","fromSide":"bottom","toNode":"32ce4bc7b27c651b","toSide":"top","color":"5"},
+		{"id":"da385aa7f4140149","fromNode":"03df08c80e537017","fromSide":"right","toNode":"949549a43e143c50","toSide":"left","color":"5"}
+	]
+}
