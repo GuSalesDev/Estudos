@@ -4,7 +4,7 @@
 
 [[LOOP]]
 
-[[OPERADORES]]
+[[Estudos/ALGORITIMO/OPERADORES]]
 
 [[TIPOS DE DADOS]]
 
